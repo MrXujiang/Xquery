@@ -99,7 +99,7 @@
     })
 
     // 设置css
-    Xuery.extend({
+    Xuery.fn.extend({
     css: function(){
         var arg = arguments,
         len = arg.length;
@@ -130,7 +130,7 @@
     })
 
     // 设置属性
-    Xuery.extend({
+    Xuery.fn.extend({
     attr: function(){
         var arg = arguments,
         len = arg.length;
